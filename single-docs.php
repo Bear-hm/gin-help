@@ -7,7 +7,6 @@ $skip_sidebar = get_post_meta( $post->ID, 'skip_sidebar', true );
 
     <?php if ( $skip_sidebar != 'yes' ) { ?>
         <div class="col-sm-3">
-
             <aside class="widget doc-nav-widget">
                 <?php
                 $ancestors = array();
@@ -44,7 +43,6 @@ $skip_sidebar = get_post_meta( $post->ID, 'skip_sidebar', true );
                     </ul>
                 <?php } ?>
             </aside>
-
         </div>
     <?php } ?>
 

@@ -40,20 +40,15 @@
             <?php
         }
                 wp_list_categories( $args );
-
-
-
         $childrens = get_terms( 'category', $args );
 
         if ( $childrens ) {
-
             echo '<ul class="child-cats">';
             foreach ($childrens as $child) {
                  printf( '<li><a href="%s">%s</a></li>', get_term_link( $child ), $child->name );
             }
             echo '</ul>';
         }
-
         ?>
     </div>
 </li>
