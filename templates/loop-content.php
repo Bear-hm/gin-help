@@ -1,5 +1,5 @@
 <li class="doc">
-    <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
     <div class="inside">
         <?php the_excerpt(); ?>
