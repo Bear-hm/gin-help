@@ -14,7 +14,7 @@
         );
         $posts = get_posts(array(
             'cat' => $args['child_of'], // 分类ID
-            'posts_per_page' => 20,
+            'posts_per_page' => 5,
         ));
 
         // 如果有文章，则显示分类名称和文章列表
