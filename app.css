@@ -181,7 +181,7 @@ ul.doc-category li.doc h3:before,
 ul.doc-category li.category h3:before {
     color: rgba(37, 90, 140, 0.2);
     font-family: 'FontAwesome';
-     display: none;
+    display: none;
     font-size: 20px;
     font-weight: normal;
     line-height: 100%;
